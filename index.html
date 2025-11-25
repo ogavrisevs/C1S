@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Selection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            min-width: 600px;
+            max-width: 900px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .dropdown-container {
+            margin-bottom: 20px;
+        }
+
+        select {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        select:hover {
+            border-color: #667eea;
+        }
+
+        select:focus {
+            border-color: #764ba2;
+            box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
+        }
+
+        select:disabled {
+            background-color: #f5f5f5;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        optgroup {
+            font-weight: bold;
+            font-style: normal;
+            padding: 5px;
+        }
+
+        option {
+            padding: 10px;
+        }
+
+        .content-display {
+            margin-top: 30px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            min-height: 200px;
+            display: none;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content-display.show {
+            display: block;
+        }
+
+        .question {
+            color: #333;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+        }
+
+        .answer.show {
+            display: block;
+        }
+
+        .answer h2 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .answer p {
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .answer table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        .answer table th,
+        .answer table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .answer table th {
+            background-color: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+
+        .answer table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .answer table tr:hover {
+            background-color: #f0f0f0;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .show-answer-btn, .next-question-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex: 1;
+        }
+
+        .show-answer-btn:hover, .next-question-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);
+        }
+
+        .show-answer-btn:active, .next-question-btn:active {
+            transform: translateY(0);
+        }
+
+        .loading {
+            text-align: center;
+            color: #667eea;
+            font-style: italic;
+        }
+
+        .error {
+            color: #e74c3c;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Izvēlies C1S tēmu</h1>
+        <div class="dropdown-container">
+            <select id="mainDropdown">
+                <option value="">-- Izvēlies tēmu --</option>
+            </select>
+        </div>
+        <div class="dropdown-container">
+            <select id="questionDropdown" disabled>
+                <option value="">-- Izvēlies jautājumu --</option>
+            </select>
+        </div>
+        <div class="button-container" id="buttonContainer" style="display: none;">
+            <button class="show-answer-btn" onclick="toggleAnswer()">Rādīt atbildi</button>
+            <button class="next-question-btn" onclick="loadNextQuestion()">Nākamais jautājums</button>
+        </div>
+        <div class="content-display" id="contentDisplay"></div>
+    </div>
+
+    <script>
+        // Fetch data from the JSON file
+        fetch('topics.json')
+            .then(response => response.json())
+            .then(data => {
+                populateDropdown(data);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                alert('Error loading data. Please make sure topics.json exists.');
+            });
+
+        function populateDropdown(items) {
+            const dropdown = document.getElementById('mainDropdown');
+            
+            // Add all items directly without grouping
+            items.forEach((item, index) => {
+                const option = document.createElement('option');
+                option.value = item.folder;
+                option.textContent = item.label;
+                dropdown.appendChild(option);
+            });
+        }
+
+        // Get list of markdown files in a folder
+        async function getMarkdownFiles(folderName) {
+            try {
+                const response = await fetch(`${folderName}/questions.json`);
+                if (!response.ok) {
+                    throw new Error('Failed to load files list');
+                }
+                const files = await response.json();
+                return files;
+            } catch (error) {
+                console.error('Error loading files list:', error);
+                throw error;
+            }
+        }
+
+        // Populate question dropdown
+        async function populateQuestionDropdown(folderName) {
+            const questionDropdown = document.getElementById('questionDropdown');
+            questionDropdown.innerHTML = '<option value="">-- Izvēlies jautājumu --</option>';
+            questionDropdown.innerHTML += '<option value="__random__">-- Brīvi izvēlēts jautājums no tēmas --</option>';
+            questionDropdown.innerHTML += '<option value="__print_all__">-- Drukāt visus tēmas jautājumus / atbildes --</option>';
+            questionDropdown.disabled = true;
+
+            try {
+                const files = await getMarkdownFiles(folderName);
+                
+                files.forEach((item) => {
+                    const option = document.createElement('option');
+                    if (typeof item === 'string') {
+                        option.value = item;
+                        option.textContent = item.replace('.md', '');
+                    } else {
+                        option.value = item.filename;
+                        option.textContent = item.label;
+                    }
+                    questionDropdown.appendChild(option);
+                });
+
+                questionDropdown.disabled = false;
+            } catch (error) {
+                console.error('Error populating question dropdown:', error);
+            }
+        }
+
+        // Load specific markdown file
+        async function loadSpecificMarkdown(folderName, filename) {
+            const contentDisplay = document.getElementById('contentDisplay');
+            contentDisplay.innerHTML = '<p class="loading">Loading...</p>';
+            contentDisplay.classList.add('show');
+
+            try {
+                // Load the markdown file
+                const response = await fetch(`${folderName}/${filename}`);
+                if (!response.ok) {
+                    throw new Error(`Failed to load markdown file: ${filename}`);
+                }
+                const markdownText = await response.text();
+                
+                // Split question and answer
+                const lines = markdownText.split('\n');
+                const question = lines[0].replace(/^#\s*/, '');
+                const answerText = lines.slice(1).join('\n').trim();
+                
+                // Convert answer markdown to HTML
+                const answerHTML = convertMarkdownToHTML(answerText, folderName);
+                
+                // Create the display HTML
+                contentDisplay.innerHTML = `
+                    <div class="question">${question}</div>
+                    <div class="answer" id="answer">
+                        ${answerHTML}
+                    </div>
+                `;
+                
+                // Show buttons
+                document.getElementById('buttonContainer').style.display = 'flex';
+            } catch (error) {
+                console.error('Error:', error);
+                contentDisplay.innerHTML = `<p class="error">Error: ${error.message}</p>`;
+            }
+        }
+
+        // Load and display random markdown file
+        async function loadRandomMarkdown(folderName) {
+            const contentDisplay = document.getElementById('contentDisplay');
+            contentDisplay.innerHTML = '<p class="loading">Loading...</p>';
+            contentDisplay.classList.add('show');
+
+            try {
+                // Get list of markdown files
+                const files = await getMarkdownFiles(folderName);
+                
+                if (!files || files.length === 0) {
+                    throw new Error('No markdown files found');
+                }
+
+                // Select random file
+                const randomItem = files[Math.floor(Math.random() * files.length)];
+                const randomFile = typeof randomItem === 'string' ? randomItem : randomItem.filename;
+                
+                // Load the markdown file
+                const response = await fetch(`${folderName}/${randomFile}`);
+                if (!response.ok) {
+                    throw new Error(`Failed to load markdown file: ${randomFile}`);
+                }
+                const markdownText = await response.text();
+                
+                // Split question and answer
+                const lines = markdownText.split('\n');
+                const question = lines[0].replace(/^#\s*/, ''); // Remove leading # if present
+                const answerText = lines.slice(1).join('\n').trim();
+                
+                // Convert answer markdown to HTML
+                const answerHTML = convertMarkdownToHTML(answerText, folderName);
+                
+                // Create the display HTML
+                contentDisplay.innerHTML = `
+                    <div class="question">${question}</div>
+                    <div class="answer" id="answer">
+                        ${answerHTML}
+                    </div>
+                `;
+                
+                // Show buttons
+                document.getElementById('buttonContainer').style.display = 'flex';
+            } catch (error) {
+                console.error('Error:', error);
+                contentDisplay.innerHTML = `<p class="error">Error: ${error.message}</p>`;
+            }
+        }
+
+        // Basic markdown to HTML conversion
+        function convertMarkdownToHTML(markdown, folderName = '') {
+            let html = markdown;
+            
+            // Tables - must be processed before line breaks
+            html = convertTables(html);
+            
+            // Images - must be processed before links and italic
+            html = html.replace(/!\[([^\]]*)\]\(([^\)]+)\)/g, (match, alt, src) => {
+                // If src is relative (doesn't start with http:// or https://), prepend folderName
+                const imgSrc = src.startsWith('http://') || src.startsWith('https://') ? src : `${folderName}/${src}`;
+                return `<img src="${imgSrc}" alt="${alt}" style="max-width: 100%; height: auto; margin: 10px 0;">`;
+            });
+            
+            // Headers
+            html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+            html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+            html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+            
+            // Bold
+            html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            html = html.replace(/__(.+?)__/g, '<strong>$1</strong>');
+            
+            // Italic
+            html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+            html = html.replace(/_(.+?)_/g, '<em>$1</em>');
+            
+            // Links
+            html = html.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2">$1</a>');
+            
+            // Line breaks
+            html = html.replace(/\n\n/g, '</p><p>');
+            html = html.replace(/\n/g, '<br>');
+            
+            // Wrap in paragraphs
+            html = '<p>' + html + '</p>';
+            
+            return html;
+        }
+
+        // Convert markdown tables to HTML
+        function convertTables(markdown) {
+            const lines = markdown.split('\n');
+            let result = [];
+            let inTable = false;
+            let tableRows = [];
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                // Check if line is a table row (contains |)
+                if (line.includes('|')) {
+                    // Check if this is a separator row (contains only |, -, and spaces)
+                    if (/^[\|\s\-:]+$/.test(line)) {
+                        // Skip separator rows
+                        continue;
+                    }
+                    
+                    if (!inTable) {
+                        inTable = true;
+                        tableRows = [];
+                    }
+                    
+                    // Parse the row
+                    const cells = line.split('|').map(cell => cell.trim()).filter(cell => cell !== '');
+                    tableRows.push(cells);
+                } else {
+                    // End of table
+                    if (inTable) {
+                        result.push(buildTableHTML(tableRows));
+                        tableRows = [];
+                        inTable = false;
+                    }
+                    result.push(line);
+                }
+            }
+            
+            // Handle table at end of content
+            if (inTable && tableRows.length > 0) {
+                result.push(buildTableHTML(tableRows));
+            }
+            
+            return result.join('\n');
+        }
+
+        // Build HTML table from rows
+        function buildTableHTML(rows) {
+            if (rows.length === 0) return '';
+            
+            let html = '<table>\n';
+            
+            // First row is header
+            html += '<thead><tr>';
+            for (const cell of rows[0]) {
+                html += `<th>${cell}</th>`;
+            }
+            html += '</tr></thead>\n';
+            
+            // Rest are body rows
+            if (rows.length > 1) {
+                html += '<tbody>\n';
+                for (let i = 1; i < rows.length; i++) {
+                    html += '<tr>';
+                    for (const cell of rows[i]) {
+                        html += `<td>${cell}</td>`;
+                    }
+                    html += '</tr>\n';
+                }
+                html += '</tbody>\n';
+            }
+            
+            html += '</table>';
+            return html;
+        }
+
+        // Toggle answer visibility
+        function toggleAnswer() {
+            const answer = document.getElementById('answer');
+            const button = document.querySelector('.show-answer-btn');
+            
+            if (answer.classList.contains('show')) {
+                answer.classList.remove('show');
+                button.textContent = 'Rādīt atbildi';
+            } else {
+                answer.classList.add('show');
+                button.textContent = 'Paslēpt atbildi';
+            }
+        }
+
+        // Load next question
+        let lastSelectedOption = '';
+        function loadNextQuestion() {
+            if (lastSelectedOption) {
+                loadRandomMarkdown(lastSelectedOption);
+            }
+        }
+
+        // Handle selection change
+        document.getElementById('mainDropdown').addEventListener('change', function() {
+            const selectedValue = this.value;
+            const questionDropdown = document.getElementById('questionDropdown');
+            const contentDisplay = document.getElementById('contentDisplay');
+            const buttonContainer = document.getElementById('buttonContainer');
+            
+            if (selectedValue) {
+                lastSelectedOption = selectedValue;
+                populateQuestionDropdown(selectedValue);
+                contentDisplay.classList.remove('show');
+                buttonContainer.style.display = 'none';
+            } else {
+                contentDisplay.classList.remove('show');
+                lastSelectedOption = '';
+                questionDropdown.innerHTML = '<option value="">-- Izvēlies jautājumu --</option>';
+                questionDropdown.disabled = true;
+                buttonContainer.style.display = 'none';
+            }
+        });
+
+        // Handle question dropdown change
+        document.getElementById('questionDropdown').addEventListener('change', function() {
+            const selectedFile = this.value;
+            
+            if (selectedFile && lastSelectedOption) {
+                if (selectedFile === '__random__') {
+                    loadRandomMarkdown(lastSelectedOption);
+                } else if (selectedFile === '__print_all__') {
+                    openPrintAllPage(lastSelectedOption);
+                    // Reset dropdown
+                    this.value = '';
+                } else {
+                    loadSpecificMarkdown(lastSelectedOption, selectedFile);
+                }
+            }
+        });
+
+        // Open print all page
+        function openPrintAllPage(folderName) {
+            const printUrl = `print.html?folder=${encodeURIComponent(folderName)}`;
+            window.open(printUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
