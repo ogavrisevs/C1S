@@ -1,0 +1,20 @@
+Ģeogrāfiskais garums un platums. Koordināšu sistēma.
+Merkatora kartes izveidošanas princips.
+Attāluma un ātruma mērvienības uz jūras.
+Magnētiskā variācija. Variācijas pievešana uz doto gadu.
+Kuģa deviācija. Kā sastādīt deviācijas tabulu?
+Kuģa kurss (īstais kurss, kompasa kurss, magnētiskais kurss)
+Kas ir drifte? Driftes leņķa noteikšana.
+Straumes trīsstūra konstruēšana.
+Jahtas  atrašanās vietas noteikšana pēc krasta objektiem ar dažādām metodēm. 
+Peilēšana. Jahtas vietas noteikšana pēc divu bāku peilējuma. 
+Ortodromija un loksodromija, to piemērošanas praktiskie aspekti.
+Redzamais horizonts un tā attālums. Bāku atklāšanās attālums.
+Kardinālās sistēmas bojas (krāsojums, uguņi, topa figūras)
+Laterālā sistēma A un B, boju krāsojums, ugunis un topa figūras.
+Plūdmaiņu rašanās principi. Sizigija un kvadratūra.
+Atšifrēt šādus navigācijas uguņus: „Iso R 5s 11M”, „2Ldg F R 2M”, „Mo(A) 10s”, „Oc(3)10M”, „Fl(2)10s 29M”.
+Kā uz kartes atrast informāciju par paisumu – bēgumu straumes virzienu un ātrumu jūrā?
+Paisumu – bēgumu tabulu lietošana.
+Kursā uz kuģu ceļa redzams rajons iezīmēts ar zili-dzelteni vertikālām svītrām krāsotām bojām – ko tas nozīmē?
+Atšifrēt šādus jūras dibena grunts apzīmējumus: Cy.M;  M.S.Sh; R.Sh.mS; M.S.Sh.G; M.S.R; 

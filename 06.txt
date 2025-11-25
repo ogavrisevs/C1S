@@ -1,0 +1,20 @@
+GMDSS rajonu klasifikācija
+Radio sakaru aparatūras normas uz jahtām saskaņā ar MK noteikumiem  par atpūtas kuģu drošību.
+Kas ir MSI? MSI izplatīšanas veidi.
+Kas ir NAVTEX? Aparatūras veidi, darbības attālums.
+UĪV sakaru aparatūra. MK noteikumu prasības par UĪV sakariem.
+DSC un tā principi.
+Parastas UĪV rācijas atšķirības no DSC rācijas.
+Jūras drošības informācijas (MSI) izplatīšanas veidi.
+Sakaru nodibināšana pa UĪV rāciju. Standarta frāzes angļu valodā.
+Kas ir MMSI numurs un kas to piešķir jahtām Latvijā.
+Satelītu sakaru sistēmas.
+UĪV 16. kanāls – kam tas ir paredzēts un kā tas tiek pareizi lietots?
+Glābšanas dienestu izsaukšanas kārtība avārijas gadījumā. Avārijas izsaukuma saturs un kārtība.
+Ostu kuģu satiksmes dienesti, to uzdevumi un jahtu sakari ar tiem.
+Rīcība, ja pa radio dzirdams DSC trauksmes signāls.
+Rīcība, ja pa radio dzirdams avārijas izsaukums ar balsi.
+Fonētiskais alfabēts. Vārdu nosaukšana pa burtiem.
+Kuģa koordināšu paziņošana pa rāciju angļu valodā.
+EPIRB. Reģistrācija, kodēšana un sertifikācija.
+Izsaukuma signāls (Call Sign), kas to piešķir jahtām Latvijā un kā to lieto.

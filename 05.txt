@@ -1,0 +1,20 @@
+RĪCĪBAS SECĪBA NEGADĪJUMA VIETĀ: Cietušo pārvietošanas iespējas.
+Atdzīvināšanas pasākumi: Cietušais bezsamaņā, elpo.
+Atdzīvināšanas pasākumi: Cietušais bezsamaņā, neelpo.
+DZĪVĪBAI BĪSTAMA ASIŅOŠANA: Šoks. Stipra asiņošana. Stipra asiņošana rokā vai kājā un ir pieejami pārsienamie materiāli.
+TERMISKIE BOJĀJUMI: Pārkaršana. Apdegumi
+TERMISKIE BOJĀJUMI: Atdzišana, hipotermija. Apsaldējumi.
+ĶĪMISKO VIELU IZRAISĪTIE NELAIMES GADĪJUMI: Ķīmiska viela uz ādas.  Ķīmiska viela acī.
+ĶĪMISKO VIELU IZRAISĪTIE NELAIMES GADĪJUMI: Ķīmiska viela gremošanas traktā. Ieelpota ķīmiska viela.
+ELEKTROTRAUMA
+SLĪKŠANA
+TRAUMAS: Brūces. Roku un kāju traumas
+TRAUMAS: Mugurkaula traumas. Vēdera traumas.
+TRAUMAS: Krūškurvja traumas. Galvas traumas.
+AMPUTĀCIJAS
+DZĪVNIEKU IZRAISĪTI NELAIMES GADĪJUMI: Dzīvnieku kostas brūces. Insektu kodumi mutes dobumā.
+SVEŠĶERMEŅI: Svešķermenis elpceļos.
+SVEŠĶERMEŅI: Svešķermenis brūcē. Svešķermenis acī. Svešķermenis ausī.
+SLIMĪBAS: Krampji. Sāpes krūtīs vai elpas trūkums.
+SLIMĪBAS: Sāpes vēderā. Cukura diabēts. Insults.
+ATPŪTAS KUĢU APTIECIŅAS SATURS: Jūras slimības ārstēšana.
