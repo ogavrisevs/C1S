@@ -1,20 +1,20 @@
-RĪCĪBAS SECĪBA NEGADĪJUMA VIETĀ: Cietušo pārvietošanas iespējas.
-Atdzīvināšanas pasākumi: Cietušais bezsamaņā, elpo.
-Atdzīvināšanas pasākumi: Cietušais bezsamaņā, neelpo.
-DZĪVĪBAI BĪSTAMA ASIŅOŠANA: Šoks. Stipra asiņošana. Stipra asiņošana rokā vai kājā un ir pieejami pārsienamie materiāli.
-TERMISKIE BOJĀJUMI: Pārkaršana. Apdegumi
-TERMISKIE BOJĀJUMI: Atdzišana, hipotermija. Apsaldējumi.
-ĶĪMISKO VIELU IZRAISĪTIE NELAIMES GADĪJUMI: Ķīmiska viela uz ādas.  Ķīmiska viela acī.
-ĶĪMISKO VIELU IZRAISĪTIE NELAIMES GADĪJUMI: Ķīmiska viela gremošanas traktā. Ieelpota ķīmiska viela.
-ELEKTROTRAUMA
-SLĪKŠANA
-TRAUMAS: Brūces. Roku un kāju traumas
-TRAUMAS: Mugurkaula traumas. Vēdera traumas.
-TRAUMAS: Krūškurvja traumas. Galvas traumas.
-AMPUTĀCIJAS
-DZĪVNIEKU IZRAISĪTI NELAIMES GADĪJUMI: Dzīvnieku kostas brūces. Insektu kodumi mutes dobumā.
-SVEŠĶERMEŅI: Svešķermenis elpceļos.
-SVEŠĶERMEŅI: Svešķermenis brūcē. Svešķermenis acī. Svešķermenis ausī.
-SLIMĪBAS: Krampji. Sāpes krūtīs vai elpas trūkums.
-SLIMĪBAS: Sāpes vēderā. Cukura diabēts. Insults.
-ATPŪTAS KUĢU APTIECIŅAS SATURS: Jūras slimības ārstēšana.
+[5.1] RĪCĪBAS SECĪBA NEGADĪJUMA VIETĀ: Cietušo pārvietošanas iespējas.
+[5.2] Atdzīvināšanas pasākumi: Cietušais bezsamaņā, elpo.
+[5.3] Atdzīvināšanas pasākumi: Cietušais bezsamaņā, neelpo.
+[5.4] DZĪVĪBAI BĪSTAMA ASIŅOŠANA: Šoks. Stipra asiņošana. Stipra asiņošana rokā vai kājā un ir pieejami pārsienamie materiāli.
+[5.5] TERMISKIE BOJĀJUMI: Pārkaršana. Apdegumi
+[5.6] TERMISKIE BOJĀJUMI: Atdzišana, hipotermija. Apsaldējumi.
+[5.7] ĶĪMISKO VIELU IZRAISĪTIE NELAIMES GADĪJUMI: Ķīmiska viela uz ādas.  Ķīmiska viela acī.
+[5.8] ĶĪMISKO VIELU IZRAISĪTIE NELAIMES GADĪJUMI: Ķīmiska viela gremošanas traktā. Ieelpota ķīmiska viela.
+[5.9] ELEKTROTRAUMA
+[5.10] SLĪKŠANA
+[5.11] TRAUMAS: Brūces. Roku un kāju traumas
+[5.12] TRAUMAS: Mugurkaula traumas. Vēdera traumas.
+[5.13] TRAUMAS: Krūškurvja traumas. Galvas traumas.
+[5.14] AMPUTĀCIJAS
+[5.15] DZĪVNIEKU IZRAISĪTI NELAIMES GADĪJUMI: Dzīvnieku kostas brūces. Insektu kodumi mutes dobumā.
+[5.16] SVEŠĶERMEŅI: Svešķermenis elpceļos.
+[5.17] SVEŠĶERMEŅI: Svešķermenis brūcē. Svešķermenis acī. Svešķermenis ausī.
+[5.18] SLIMĪBAS: Krampji. Sāpes krūtīs vai elpas trūkums.
+[5.19] SLIMĪBAS: Sāpes vēderā. Cukura diabēts. Insults.
+[5.20] ATPŪTAS KUĢU APTIECIŅAS SATURS: Jūras slimības ārstēšana.

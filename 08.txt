@@ -1,20 +1,20 @@
-Sasiet plakano mezglu, pālstēku un enkura mezglu.
-Sasiet šotes mezglu, vebliņstēku un vienkāršo stēku.
-Sasiet dubulto šotes mezglu, dubulto pālstēku un aizturstēku.
-Sasiet rēvmezglu, dubulto vebliņstēku, dubulto stēku.
-Sasiet astoņnieku, pusstēku un vienkāršo tākeliņu.
-Nostiprināt galu uz jahtas klampas.
-Uzlikt piesienamā gala augu (cilpu) uz piestātnes klampas.
-Buru kopšana un remonts: buru audumi, buras remonta pamatoperācijas, buru adatas un diegi.
-Buru remonta iespējas uz jahtas jūrā.
-Kā aizmest piesienamo galu pēc iespējas tālāk?
-Tērauda troses un to veidi.
- Sasiet dubulto šotes mezglu, vebliņstēku un aizturstēku.
-Kā sakārtot galus un buras uz jahtas pie piestātnes un pārgājiena laikā?
-Dažādu materiālu galu īpašības. Kādiem raksturlielumiem jāpievērš uzmanība mainot dažādus galus jahtai?
-Kam jāpievērš uzmanība pārbaudot jahtas takelāžu?
-Dažādu buru sakārtošana un buru glabāšana.
-Kā pareizi sagatavot piesienamos galus pirms  pietauvošanās?
-Kā var ar mazāk izturīgu galu pacelt smagāku kravu?
-Kā iedalās gali uz jahtas pēc nosaukumiem?
-Takeliņi (markas), to izpildes tehnika.
+[8.1] Sasiet plakano mezglu, pālstēku un enkura mezglu.
+[8.2] Sasiet šotes mezglu, vebliņstēku un vienkāršo stēku.
+[8.3] Sasiet dubulto šotes mezglu, dubulto pālstēku un aizturstēku.
+[8.4] Sasiet rēvmezglu, dubulto vebliņstēku, dubulto stēku.
+[8.5] Sasiet astoņnieku, pusstēku un vienkāršo tākeliņu.
+[8.6] Nostiprināt galu uz jahtas klampas.
+[8.7] Uzlikt piesienamā gala augu (cilpu) uz piestātnes klampas.
+[8.8] Buru kopšana un remonts: buru audumi, buras remonta pamatoperācijas, buru adatas un diegi.
+[8.9] Buru remonta iespējas uz jahtas jūrā.
+[8.10] Kā aizmest piesienamo galu pēc iespējas tālāk?
+[8.11] Tērauda troses un to veidi.
+[8.12] Sasiet dubulto šotes mezglu, vebliņstēku un aizturstēku.
+[8.13] Kā sakārtot galus un buras uz jahtas pie piestātnes un pārgājiena laikā?
+[8.14] Dažādu materiālu galu īpašības. Kādiem raksturlielumiem jāpievērš uzmanība mainot dažādus galus jahtai?
+[8.15] Kam jāpievērš uzmanība pārbaudot jahtas takelāžu?
+[8.16] Dažādu buru sakārtošana un buru glabāšana.
+[8.17] Kā pareizi sagatavot piesienamos galus pirms  pietauvošanās?
+[8.18] Kā var ar mazāk izturīgu galu pacelt smagāku kravu?
+[8.19] Kā iedalās gali uz jahtas pēc nosaukumiem?
+[8.20] Takeliņi (markas), to izpildes tehnika.

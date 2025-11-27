@@ -1,20 +1,20 @@
-Jahtu iedalījums pēc korpusa konstrukcijas un takelāžas tipiem.
-Slupa takelāža. Stāvošās takelāžas daļas.
-Jahtas elektroapgāde, ģenerators, akumulatori, saules baterijas, jahtas ventilācijas sistēma. 
-Jahtu reliņi un to sastāvdaļas. MK noteikumu prasības attiecībā uz jahtu   reliņiem.
-Drošības jostas un glābšanas vestes, to lietošana.
-Enkuri – to tipi un jahtu apgādes normas attiecībā uz tiem.
-Buru nosaukumi dažāda tipa jahtām (slups, kečs, jolle, šoneris u.t.t.)
-Buru elementi. Kustīgās takelāžas daļas.
-Spinakers. Pacelšana, spinakera vadīšana, novākšana. Ar spinakeru  saistīto takelāžas elementu nosaukumi.
-Buru jahtas klāja aprīkojums (nosaukumi).
-Atpūtas kuģu kuģošanas rajonu un attiecīgās konstrukcijas kategorijas. 
-Jahtas aprīkojuma normas par ūdens atsūknēšanas ierīcēm.
-Jahtas apgādes normas ar pirotehniskajiem līdzekļiem. To lietošana.
-Vētras enkuri, to lietošana.
-Ugunsdzēsības inventārs uz atpūtas kuģiem. Ugunsdrošība kambīzē.
-Jahtas ieziemošana un uzglabāšana ziemā.
-Avārijas materiāli, instrumenti un rezerves daļas uz atpūtas kuģiem dodoties garākā pārgājienā.
-Prasības atpūtas kuģiem attiecībā uz glābšanas plostiem.
-Jahtas aprīkojums ar navigācijas ugunīm atkarībā no garuma un tipa.
-Jahtas avārijas stūre.
+[7.1] Jahtu iedalījums pēc korpusa konstrukcijas un takelāžas tipiem.
+[7.2] Slupa takelāža. Stāvošās takelāžas daļas.
+[7.3] Jahtas elektroapgāde, ģenerators, akumulatori, saules baterijas, jahtas ventilācijas sistēma. 
+[7.4] Jahtu reliņi un to sastāvdaļas. MK noteikumu prasības attiecībā uz jahtu   reliņiem.
+[7.5] Drošības jostas un glābšanas vestes, to lietošana.
+[7.6] Enkuri – to tipi un jahtu apgādes normas attiecībā uz tiem.
+[7.7] Buru nosaukumi dažāda tipa jahtām (slups, kečs, jolle, šoneris u.t.t.)
+[7.8] Buru elementi. Kustīgās takelāžas daļas.
+[7.9] Spinakers. Pacelšana, spinakera vadīšana, novākšana. Ar spinakeru  saistīto takelāžas elementu nosaukumi.
+[7.10] Buru jahtas klāja aprīkojums (nosaukumi).
+[7.11] Atpūtas kuģu kuģošanas rajonu un attiecīgās konstrukcijas kategorijas. 
+[7.12] Jahtas aprīkojuma normas par ūdens atsūknēšanas ierīcēm.
+[7.13] Jahtas apgādes normas ar pirotehniskajiem līdzekļiem. To lietošana.
+[7.14] Vētras enkuri, to lietošana.
+[7.15] Ugunsdzēsības inventārs uz atpūtas kuģiem. Ugunsdrošība kambīzē.
+[7.16] Jahtas ieziemošana un uzglabāšana ziemā.
+[7.17] Avārijas materiāli, instrumenti un rezerves daļas uz atpūtas kuģiem dodoties garākā pārgājienā.
+[7.18] Prasības atpūtas kuģiem attiecībā uz glābšanas plostiem.
+[7.19] Jahtas aprīkojums ar navigācijas ugunīm atkarībā no garuma un tipa.
+[7.20] Jahtas avārijas stūre.

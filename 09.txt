@@ -1,20 +1,20 @@
-Gaisa spiediena sadalījums uz buras. Rezultējošā aerodinamiskā spēka iedarbība uz buru, tā sadalīšana komponentēs
-Buras savērpe. Jahtas sānsveres iespaids uz jahtas gaitu. 
-Buras "pagarinājums", tā induktīvā pretestība.
-Jahtas induktīvā pretestība, formas pretestība.
-Uzzīmēt jahtas aerodinamisko spēku vektorus kursā pie vēja.
-Iespējamie jahtas kursi attiecībā pret vēju un attiecīgais buru regulējums.
-Jahtas centrēšanas principi: buras laukuma smaguma centrs (BC); laterālā laukuma smaguma centrs (LC); jahtas trimēšana, kursa noturība.
-Foka un grota savstarpējā iedarbība.
-Jahtas lūvēšanās un krišanās. Jahtas sānsveres iespaids uz lūvēšanos.
-Jahtas stabilitātes principi. 
-Turbulentā un laminārā ūdens plūsma. 
-Jahtas korpusa veidoto viļņu mehānisms. Divu viļņu teorija. Glisēšana. Ūdenslīnijas ietekme uz viļņu veidošanos.
-Driftes pretestība. Ķīļa un stūres pagarinājums, induktīvā pretestība.
- Jahtas lūvēšanās un kā to novērst?
-Gaisa plūsmas cirkulācija ap burām. Induktīvā plūsma 
-Kas ir vimpeļvējš? Pie jahtas ātruma 10 mezgli un pie vēja ātruma 30 mezgli ejot kursā ar vēju, kāds būs vimpeļvējš ? 
-Buru izvēle atkarībā no vēja stipruma. Buru trimmēšana atkarībā no vēja stipruma un virziena.
-Jahtas vadīšana ar spinakeru. Broučings.
-Rēvēšanās.
-Masta izliekuma izmantošana buru trimmēšanai.
+[9.1] Gaisa spiediena sadalījums uz buras. Rezultējošā aerodinamiskā spēka iedarbība uz buru, tā sadalīšana komponentēs
+[9.2] Buras savērpe. Jahtas sānsveres iespaids uz jahtas gaitu. 
+[9.3] Buras "pagarinājums", tā induktīvā pretestība.
+[9.4] Jahtas induktīvā pretestība, formas pretestība.
+[9.5] Uzzīmēt jahtas aerodinamisko spēku vektorus kursā pie vēja.
+[9.6] Iespējamie jahtas kursi attiecībā pret vēju un attiecīgais buru regulējums.
+[9.7] Jahtas centrēšanas principi: buras laukuma smaguma centrs (BC); laterālā laukuma smaguma centrs (LC); jahtas trimēšana, kursa noturība.
+[9.8] Foka un grota savstarpējā iedarbība.
+[9.9] Jahtas lūvēšanās un krišanās. Jahtas sānsveres iespaids uz lūvēšanos.
+[9.10] Jahtas stabilitātes principi. 
+[9.11] Turbulentā un laminārā ūdens plūsma. 
+[9.12] Jahtas korpusa veidoto viļņu mehānisms. Divu viļņu teorija. Glisēšana. Ūdenslīnijas ietekme uz viļņu veidošanos.
+[9.13] Driftes pretestība. Ķīļa un stūres pagarinājums, induktīvā pretestība.
+[9.14]  Jahtas lūvēšanās un kā to novērst?
+[9.15] Gaisa plūsmas cirkulācija ap burām. Induktīvā plūsma 
+[9.16] Kas ir vimpeļvējš? Pie jahtas ātruma 10 mezgli un pie vēja ātruma 30 mezgli ejot kursā ar vēju, kāds būs vimpeļvējš ? 
+[9.17] Buru izvēle atkarībā no vēja stipruma. Buru trimmēšana atkarībā no vēja stipruma un virziena.
+[9.18] Jahtas vadīšana ar spinakeru. Broučings.
+[9.19] Rēvēšanās.
+[9.20] Masta izliekuma izmantošana buru trimmēšanai.

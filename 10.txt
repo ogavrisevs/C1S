@@ -1,20 +1,20 @@
-Atpūtas kuģu būvniecības un reģistrācijas kārtība Latvijā.
-Karogu lietošana uz atpūtas kuģiem.
-MK noteikumi par atpūtas kuģu vadītāju sertificēšanu. Atpūtas kuģu vadītāju kategorijas Latvijā. 
-Citu valstu atpūtas kuģu vadītāju tiesību izmantošana Latvijā. Atpūtas kuģu vadītāju sertifikācija Eiropā.
-Latvijas un Eiropas valstu ostu formalitātes atpūtas kuģiem, praktiskie aspekti.
-MK noteikumi par kuģošanas līdzekļu satiksmi iekšējos ūdeņos, drošības aprīkojuma normas.
-MK noteikumi par atpūtas kuģu drošību; kuģa dokumenti un aprīkojuma normas. 
-MK noteikumi par Latvijas ūdeņu izmantošanas kārtību un kuģošanas režīmu tajos, praktiskie aspekti atpūtas kuģiem.
-MK noteikumi par kuģu kontroli un aizturēšanu Latvijas ūdeņos, praktiskie aspekti atpūtas kuģim.
-ANO Jūras tiesību konvencijas noteiktās jūras teritoriju kategorijas. 
-Rīgas Jūras līcī ir jūras ūdeņi ar iekšējo ūdeņu statusu. Kā tie noteikti un kur tie ir?
-Atpūtas kuģiem nepieciešamie dokumenti. Kuģa žurnāla nozīme un pareiza aizpildīšana.
-Jūras vides aizsardzības normas atpūtas kuģiem, MARPOL 73/78 konvencijas prasības.
- Helsinku 1972.g. konvencijas vispārīgais apskats, prasības atpūtas kuģiem. 
-1974.gada Starptautiskā konvencija par cilvēka dzīvības aizsardzību uz jūras (SOLAS-74), šīs konvencijas V nodaļas prasības atpūtas kuģiem.
-ES atpūtas kuģu direktīvas (RCD) noteiktās atpūtas kuģu kategorijas.
-Ostu formalitātes pie atpūtas kuģa atgriešanās no ārzemju pārgājiena.
-Iziešanas formalitātes atpūtas kuģiem izejot no Latvijas ostas uz ārzemēm.
-ANO jūras tiesību konvencijas normas par pienākumiem sniegt palīdzību jūrā.
-Latvijas Administratīvo pārkāpumu kodeksa normas par alkohola lietošanu uz atpūtas kuģiem.
+[10.1] Atpūtas kuģu būvniecības un reģistrācijas kārtība Latvijā.
+[10.2] Karogu lietošana uz atpūtas kuģiem.
+[10.3] MK noteikumi par atpūtas kuģu vadītāju sertificēšanu. Atpūtas kuģu vadītāju kategorijas Latvijā. 
+[10.4] Citu valstu atpūtas kuģu vadītāju tiesību izmantošana Latvijā. Atpūtas kuģu vadītāju sertifikācija Eiropā.
+[10.5] Latvijas un Eiropas valstu ostu formalitātes atpūtas kuģiem, praktiskie aspekti.
+[10.6] MK noteikumi par kuģošanas līdzekļu satiksmi iekšējos ūdeņos, drošības aprīkojuma normas.
+[10.7] MK noteikumi par atpūtas kuģu drošību; kuģa dokumenti un aprīkojuma normas. 
+[10.8] MK noteikumi par Latvijas ūdeņu izmantošanas kārtību un kuģošanas režīmu tajos, praktiskie aspekti atpūtas kuģiem.
+[10.9] MK noteikumi par kuģu kontroli un aizturēšanu Latvijas ūdeņos, praktiskie aspekti atpūtas kuģim.
+[10.10] ANO Jūras tiesību konvencijas noteiktās jūras teritoriju kategorijas. 
+[10.11] Rīgas Jūras līcī ir jūras ūdeņi ar iekšējo ūdeņu statusu. Kā tie noteikti un kur tie ir?
+[10.12] Atpūtas kuģiem nepieciešamie dokumenti. Kuģa žurnāla nozīme un pareiza aizpildīšana.
+[10.13] Jūras vides aizsardzības normas atpūtas kuģiem, MARPOL 73/78 konvencijas prasības.
+[10.14]  Helsinku 1972.g. konvencijas vispārīgais apskats, prasības atpūtas kuģiem. 
+[10.15] 1974.gada Starptautiskā konvencija par cilvēka dzīvības aizsardzību uz jūras (SOLAS-74), šīs konvencijas V nodaļas prasības atpūtas kuģiem.
+[10.16] ES atpūtas kuģu direktīvas (RCD) noteiktās atpūtas kuģu kategorijas.
+[10.17] Ostu formalitātes pie atpūtas kuģa atgriešanās no ārzemju pārgājiena.
+[10.18] Iziešanas formalitātes atpūtas kuģiem izejot no Latvijas ostas uz ārzemēm.
+[10.19] ANO jūras tiesību konvencijas normas par pienākumiem sniegt palīdzību jūrā.
+[10.20] Latvijas Administratīvo pārkāpumu kodeksa normas par alkohola lietošanu uz atpūtas kuģiem.

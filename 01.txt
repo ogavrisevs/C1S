@@ -1,20 +1,20 @@
-Ģeogrāfiskais garums un platums. Koordināšu sistēma.
-Merkatora kartes izveidošanas princips.
-Attāluma un ātruma mērvienības uz jūras.
-Magnētiskā variācija. Variācijas pievešana uz doto gadu.
-Kuģa deviācija. Kā sastādīt deviācijas tabulu?
-Kuģa kurss (īstais kurss, kompasa kurss, magnētiskais kurss)
-Kas ir drifte? Driftes leņķa noteikšana.
-Straumes trīsstūra konstruēšana.
-Jahtas  atrašanās vietas noteikšana pēc krasta objektiem ar dažādām metodēm. 
-Peilēšana. Jahtas vietas noteikšana pēc divu bāku peilējuma. 
-Ortodromija un loksodromija, to piemērošanas praktiskie aspekti.
-Redzamais horizonts un tā attālums. Bāku atklāšanās attālums.
-Kardinālās sistēmas bojas (krāsojums, uguņi, topa figūras)
-Laterālā sistēma A un B, boju krāsojums, ugunis un topa figūras.
-Plūdmaiņu rašanās principi. Sizigija un kvadratūra.
-Atšifrēt šādus navigācijas uguņus: „Iso R 5s 11M”, „2Ldg F R 2M”, „Mo(A) 10s”, „Oc(3)10M”, „Fl(2)10s 29M”.
-Kā uz kartes atrast informāciju par paisumu – bēgumu straumes virzienu un ātrumu jūrā?
-Paisumu – bēgumu tabulu lietošana.
-Kursā uz kuģu ceļa redzams rajons iezīmēts ar zili-dzelteni vertikālām svītrām krāsotām bojām – ko tas nozīmē?
-Atšifrēt šādus jūras dibena grunts apzīmējumus: Cy.M;  M.S.Sh; R.Sh.mS; M.S.Sh.G; M.S.R; 
+[1.1] Ģeogrāfiskais garums un platums. Koordināšu sistēma.
+[1.2] Merkatora kartes izveidošanas princips.
+[1.3] Attāluma un ātruma mērvienības uz jūras.
+[1.4] Magnētiskā variācija. Variācijas pievešana uz doto gadu.
+[1.5] Kuģa deviācija. Kā sastādīt deviācijas tabulu?
+[1.6] Kuģa kurss (īstais kurss, kompasa kurss, magnētiskais kurss)
+[1.7] Kas ir drifte? Driftes leņķa noteikšana.
+[1.8] Straumes trīsstūra konstruēšana.
+[1.9] Jahtas  atrašanās vietas noteikšana pēc krasta objektiem ar dažādām metodēm. 
+[1.10] Peilēšana. Jahtas vietas noteikšana pēc divu bāku peilējuma. 
+[1.11] Ortodromija un loksodromija, to piemērošanas praktiskie aspekti.
+[1.12] Redzamais horizonts un tā attālums. Bāku atklāšanās attālums.
+[1.13] Kardinālās sistēmas bojas (krāsojums, uguņi, topa figūras)
+[1.14] Laterālā sistēma A un B, boju krāsojums, ugunis un topa figūras.
+[1.15] Plūdmaiņu rašanās principi. Sizigija un kvadratūra.
+[1.16] Atšifrēt šādus navigācijas uguņus: „Iso R 5s 11M”, „2Ldg F R 2M”, „Mo(A) 10s”, „Oc(3)10M”, „Fl(2)10s 29M”.
+[1.17] Kā uz kartes atrast informāciju par paisumu – bēgumu straumes virzienu un ātrumu jūrā?
+[1.18] Paisumu – bēgumu tabulu lietošana.
+[1.19] Kursā uz kuģu ceļa redzams rajons iezīmēts ar zili-dzelteni vertikālām svītrām krāsotām bojām – ko tas nozīmē?
+[1.20] Atšifrēt šādus jūras dibena grunts apzīmējumus: Cy.M;  M.S.Sh; R.Sh.mS; M.S.Sh.G; M.S.R; 

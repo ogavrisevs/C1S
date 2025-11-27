@@ -1,20 +1,20 @@
-GMDSS rajonu klasifikācija
-Radio sakaru aparatūras normas uz jahtām saskaņā ar MK noteikumiem  par atpūtas kuģu drošību.
-Kas ir MSI? MSI izplatīšanas veidi.
-Kas ir NAVTEX? Aparatūras veidi, darbības attālums.
-UĪV sakaru aparatūra. MK noteikumu prasības par UĪV sakariem.
-DSC un tā principi.
-Parastas UĪV rācijas atšķirības no DSC rācijas.
-Jūras drošības informācijas (MSI) izplatīšanas veidi.
-Sakaru nodibināšana pa UĪV rāciju. Standarta frāzes angļu valodā.
-Kas ir MMSI numurs un kas to piešķir jahtām Latvijā.
-Satelītu sakaru sistēmas.
-UĪV 16. kanāls – kam tas ir paredzēts un kā tas tiek pareizi lietots?
-Glābšanas dienestu izsaukšanas kārtība avārijas gadījumā. Avārijas izsaukuma saturs un kārtība.
-Ostu kuģu satiksmes dienesti, to uzdevumi un jahtu sakari ar tiem.
-Rīcība, ja pa radio dzirdams DSC trauksmes signāls.
-Rīcība, ja pa radio dzirdams avārijas izsaukums ar balsi.
-Fonētiskais alfabēts. Vārdu nosaukšana pa burtiem.
-Kuģa koordināšu paziņošana pa rāciju angļu valodā.
-EPIRB. Reģistrācija, kodēšana un sertifikācija.
-Izsaukuma signāls (Call Sign), kas to piešķir jahtām Latvijā un kā to lieto.
+[6.1] GMDSS rajonu klasifikācija
+[6.2] Radio sakaru aparatūras normas uz jahtām saskaņā ar MK noteikumiem  par atpūtas kuģu drošību.
+[6.3] Kas ir MSI? MSI izplatīšanas veidi.
+[6.4] Kas ir NAVTEX? Aparatūras veidi, darbības attālums.
+[6.5] UĪV sakaru aparatūra. MK noteikumu prasības par UĪV sakariem.
+[6.6] DSC un tā principi.
+[6.7] Parastas UĪV rācijas atšķirības no DSC rācijas.
+[6.8] Jūras drošības informācijas (MSI) izplatīšanas veidi.
+[6.9] Sakaru nodibināšana pa UĪV rāciju. Standarta frāzes angļu valodā.
+[6.10] Kas ir MMSI numurs un kas to piešķir jahtām Latvijā.
+[6.11] Satelītu sakaru sistēmas.
+[6.12] UĪV 16. kanāls – kam tas ir paredzēts un kā tas tiek pareizi lietots?
+[6.13] Glābšanas dienestu izsaukšanas kārtība avārijas gadījumā. Avārijas izsaukuma saturs un kārtība.
+[6.14] Ostu kuģu satiksmes dienesti, to uzdevumi un jahtu sakari ar tiem.
+[6.15] Rīcība, ja pa radio dzirdams DSC trauksmes signāls.
+[6.16] Rīcība, ja pa radio dzirdams avārijas izsaukums ar balsi.
+[6.17] Fonētiskais alfabēts. Vārdu nosaukšana pa burtiem.
+[6.18] Kuģa koordināšu paziņošana pa rāciju angļu valodā.
+[6.19] EPIRB. Reģistrācija, kodēšana un sertifikācija.
+[6.20] Izsaukuma signāls (Call Sign), kas to piešķir jahtām Latvijā un kā to lieto.

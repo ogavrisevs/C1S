@@ -1,20 +1,20 @@
-Boforta skala. 
-Vēja apzīmējumi uz sinoptiskās kartes. Vēja ātruma mērvienības un sakarība starp tām. 
-Laika prognozēšana. Meteo informācijas avoti.
-Globālie vēji un to rašanās mehānisms.
-Tuvojošās vētras pazīmes;
-Pamata miglu veidi un to rašanās mehānisms.
-Kā mainās debesis (mākoņi) tuvojoties ciklonam.
-Nokrišņu raksturs siltajā un aukstajā frontē.
-Atmosfēras frontes. Kā un kur rodas cikloni Ziemeļatlantijā.
-Ciklonu ceļi Ziemeļatlantijā. Ciklonu pārvietošanās ātrums un laika prognozēšana.
-Aparāti atmosfēras spiediena mērīšanai. Raksturīgās spiediena izmaiņu līknes ciklonā.
-Kā noteikt, kurā virzienā no mums atrodas ciklona centrs (Ziemeļu puslodē)?
-Globālo vēju rašanās un to virzieni ziemeļu puslodē.
-Termiskie vēji. 
-Anticikloni.
-Kādas pazīmes vētras laikā liecina par drīzu laika uzlabošanos?
-Atmosfēras frontes un tajās raksturīgās laika parādības.
-Bīstamas laika parādības uz jūras. Negaiss.
-Izobāras. Sinoptisko karšu lasīšana.
-Laika prognozēšana pēc sinoptiskās kartes.
+[3.1] Boforta skala.
+[3.2] Vēja apzīmējumi uz sinoptiskās kartes. Vēja ātruma mērvienības un sakarība starp tām. 
+[3.3] Laika prognozēšana. Meteo informācijas avoti.
+[3.4] Globālie vēji un to rašanās mehānisms.
+[3.5] Tuvojošās vētras pazīmes;
+[3.6] Pamata miglu veidi un to rašanās mehānisms.
+[3.7] Kā mainās debesis (mākoņi) tuvojoties ciklonam.
+[3.8] Nokrišņu raksturs siltajā un aukstajā frontē.
+[3.9] Atmosfēras frontes. Kā un kur rodas cikloni Ziemeļatlantijā.
+[3.10] Ciklonu ceļi Ziemeļatlantijā. Ciklonu pārvietošanās ātrums un laika prognozēšana.
+[3.11] Aparāti atmosfēras spiediena mērīšanai. Raksturīgās spiediena izmaiņu līknes ciklonā.
+[3.12] Kā noteikt, kurā virzienā no mums atrodas ciklona centrs (Ziemeļu puslodē)?
+[3.13] Globālo vēju rašanās un to virzieni ziemeļu puslodē.
+[3.14] Termiskie vēji. 
+[3.15] Anticikloni.
+[3.16] Kādas pazīmes vētras laikā liecina par drīzu laika uzlabošanos?
+[3.17] Atmosfēras frontes un tajās raksturīgās laika parādības.
+[3.18] Bīstamas laika parādības uz jūras. Negaiss.
+[3.19] Izobāras. Sinoptisko karšu lasīšana.
+[3.20] Laika prognozēšana pēc sinoptiskās kartes.

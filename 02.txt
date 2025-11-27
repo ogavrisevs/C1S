@@ -1,20 +1,20 @@
-AIS sistēma. AIS izmantošanas iespējas uz atpūtas kuģiem.
-Magnētisko kompasu tipi un darbības princips.
-GPS darbības principi, precizitāte, iespējamās kļūdas.
-Lagu veidi un to darbības principi. Lagas koeficients.
-Eholoti. Darbības princips, kalibrēšana.
-Radari un to darbības princips un tehniskās iespējas.
-Radara izmantošana sadursmes novēršanai ar citu kuģi, radara atstarotāji.
-Radara izmantošana jahtas vietas noteikšanai. 
-Peilkompasi, to pielietošana. Deviācijas tabulas izmantošana peilējumu labošanai.
-Anemometri un to praktiskā izmantošana.
-Elektroniskās kartes, (vektora un rastra kartes) to īpatnības un korekcijas iespējas.
-Faktori, kas iespaido eholota rādījumus.
-Karšu ploteri. Maršruta sastādīšana uz karšu plotera.
-GPS, EGNOS, WAAS – darbības principi un precizitāte.
-MOB poga, tās nozīme un lietošana.
-NAVTEX darbības princips, aparātu veidi, ziņojumu saturs.
-Kādam navigācijas aprīkojumam ir jābūt uz atpūtas kuģiem pēc MK noteikumiem.
-Ko nozīmē lielumi VMG, COG, SOG, ETA?
-Informācijas attēlošanas īpatnības elektroniskajās kartēs un tās atšķirība no papīra kartēm.
-Datora izmantošana jūras navigācijā.
+[2.1] AIS sistēma. AIS izmantošanas iespējas uz atpūtas kuģiem.
+[2.2] Magnētisko kompasu tipi un darbības princips.
+[2.3] GPS darbības principi, precizitāte, iespējamās kļūdas.
+[2.4] Lagu veidi un to darbības principi. Lagas koeficients.
+[2.5] Eholoti. Darbības princips, kalibrēšana.
+[2.6] Radari un to darbības princips un tehniskās iespējas.
+[2.7] Radara izmantošana sadursmes novēršanai ar citu kuģi, radara atstarotāji.
+[2.8] Radara izmantošana jahtas vietas noteikšanai. 
+[2.9] Peilkompasi, to pielietošana. Deviācijas tabulas izmantošana peilējumu labošanai.
+[2.10] Anemometri un to praktiskā izmantošana.
+[2.11] Elektroniskās kartes, (vektora un rastra kartes) to īpatnības un korekcijas iespējas.
+[2.12] Faktori, kas iespaido eholota rādījumus.
+[2.13] Karšu ploteri. Maršruta sastādīšana uz karšu plotera.
+[2.14] GPS, EGNOS, WAAS – darbības principi un precizitāte.
+[2.15] MOB poga, tās nozīme un lietošana.
+[2.16] NAVTEX darbības princips, aparātu veidi, ziņojumu saturs.
+[2.17] Kādam navigācijas aprīkojumam ir jābūt uz atpūtas kuģiem pēc MK noteikumiem.
+[2.18] Ko nozīmē lielumi VMG, COG, SOG, ETA?
+[2.19] Informācijas attēlošanas īpatnības elektroniskajās kartēs un tās atšķirība no papīra kartēm.
+[2.20] Datora izmantošana jūras navigācijā.
